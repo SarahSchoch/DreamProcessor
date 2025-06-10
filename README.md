@@ -118,7 +118,7 @@ Click **“Browse”** and upload a `.csv` or `.xlsx` file that contains your ra
 
 If you have already processed some reports and saved your work, you can re-load the file and continue where you left off.
 
-![Step 2: Load previous work](screenshots/step2_load_previous.png)
+![Step 2: Load previous work](screenshots/dreamprocessor2.png)
 
 ---
 
@@ -129,7 +129,7 @@ After loading, the app will prompt you to select:
 - One or more dream report fields
 - A date field (e.g., `Survey Completed On`)
 
-![Step 3: Select fields](screenshots/step3_field_selection.png)
+![Step 3: Select fields](screenshots/dreamprocessor3.png)
 
 ---
 
@@ -140,23 +140,23 @@ You can now:
 - Compare changes with the original using highlight colors
 - Navigate between reports using the “Next” and “Previous” buttons
 
-![Step 4: Edit dream](screenshots/step4_edit_dream.png)
+![Step 4: Edit dream](screenshots/dreamprocessor4.png)
 
 ---
 
-### 5. Use Anonymization Tools
+### 4. Edit Dream Reports
+
+You can easily navigate to the first unprocessed dream report using the drop down menu.
+
+![Step 5: Navigation](screenshots/dreamprocessor5.png)
+
+---
+
+### 6. Use Anonymization Tools
 
 Replace personal identifiers like names, places, and experimenters using the sidebar inputs. These are replaced with tokens like `[NAME1]`, `[PLACE1]`, etc.
 
-![Step 5: Anonymize](screenshots/step5_anonymize.png)
-
----
-
-### 6. Split or Remove Dreams
-
-If a participant has described multiple dreams in one field, you can split them into separate entries. Alternatively, mark a report as removed if it doesn't contain a valid dream.
-
-![Step 6: Split or remove](screenshots/step6_split_remove.png)
+![Step 6: Anonymize](screenshots/dreamprocessor6.png)
 
 ---
 
@@ -164,4 +164,3 @@ If a participant has described multiple dreams in one field, you can split them 
 
 Once all reports are processed, click **“Save Cleaned Reports to CSV”** to download a file containing all cleaned data.
 
-![Step 7: Save](screenshots/step7_save.png)
