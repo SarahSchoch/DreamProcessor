@@ -5,8 +5,8 @@
 
 ## Live Demo
 
-Access the application via CodePen:  
-[https://codepen.io/SarahSchoch/pen/YzLwPEx](https://codepen.io/SarahSchoch/pen/YzLwPEx)
+Access the application via CodePen (does not work with Safari, please use Firefox or Chrome):  
+[https://codepen.io/sarahschoch/full/qBeqdey](hhttps://codepen.io/sarahschoch/full/qBeqdey)
 
 ---
 
