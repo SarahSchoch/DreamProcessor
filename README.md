@@ -1,6 +1,7 @@
 # DreamProcessor
 
 **DreamProcessor** is a browser-based application for the review, cleaning, and anonymization of dream reports collected. It is designed to facilitate the processing of raw or automatically pre-cleaned dream reports (e.g., by using AI or NLP).
+
 ---
 
 ## Live Demo
@@ -101,3 +102,66 @@ Developed by [Sarah Schoch](https://github.com/SarahSchoch).
 
 This project was developed with assistance from **ChatGPT** and **Claude**.
 
+---
+
+## Step-by-Step Instructions (with Screenshots)
+
+### 1. Load a Dream Report File
+
+Click **“Browse”** and upload a `.csv` or `.xlsx` file that contains your raw (and cleaned) dream reports.
+
+![Step 1: Upload file](screenshots/dreamprocessor1.png)
+
+---
+
+### 2. (Optional) Load a Previously Cleaned File
+
+If you have already processed some reports and saved your work, you can re-load the file and continue where you left off.
+
+![Step 2: Load previous work](screenshots/step2_load_previous.png)
+
+---
+
+### 3. Select the Correct Fields
+
+After loading, the app will prompt you to select:
+- The ID field (e.g., `Participant.Id`)
+- One or more dream report fields
+- A date field (e.g., `Survey Completed On`)
+
+![Step 3: Select fields](screenshots/step3_field_selection.png)
+
+---
+
+### 4. Edit Dream Reports
+
+You can now:
+- Review and edit the content of each dream
+- Compare changes with the original using highlight colors
+- Navigate between reports using the “Next” and “Previous” buttons
+
+![Step 4: Edit dream](screenshots/step4_edit_dream.png)
+
+---
+
+### 5. Use Anonymization Tools
+
+Replace personal identifiers like names, places, and experimenters using the sidebar inputs. These are replaced with tokens like `[NAME1]`, `[PLACE1]`, etc.
+
+![Step 5: Anonymize](screenshots/step5_anonymize.png)
+
+---
+
+### 6. Split or Remove Dreams
+
+If a participant has described multiple dreams in one field, you can split them into separate entries. Alternatively, mark a report as removed if it doesn't contain a valid dream.
+
+![Step 6: Split or remove](screenshots/step6_split_remove.png)
+
+---
+
+### 7. Save to CSV
+
+Once all reports are processed, click **“Save Cleaned Reports to CSV”** to download a file containing all cleaned data.
+
+![Step 7: Save](screenshots/step7_save.png)
