@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 16px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  margin: 0;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+p {
+  margin: 0.6em 0;
+}
+
+.step {
+  border: 1px solid #222222;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px 0;
+  opacity: 0.5;
+}
+.step-2 {
+  opacity: 1;
+}
+.step:last-of-type {
+  opacity: 1;
+}
+
+.step-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.step-3 button {
+    align-self: start;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 100%;
+}
+
+.reportDisplay {
+  margin-top: 20px;
+}
+
+label {
+  margin-right: 8px;
+}
+
+
+.no-dreams-yet {
+  text-align: center;
+}
+
+.report-buttons {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.report-buttons button {
+  border-radius: 4px;
+  padding: 0 8px;
+  height: 32px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  transition: background-color 200ms;
+}
+
+.report-buttons button:not(:disabled):hover {
+  background-color: #f3f4f6;
+}
+
+.report-buttons button:disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+.report-buttons button:active {
+  background-color: #e5e7eb;
+}
+
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+
+.status-container {
+  font-weight: bold;
+}
+.staus-label {
+  font-weight: normal;
+}
+
+.report-display-original div {
+  background: white;
+  line-height: 1.6em;
+  padding: 8px;
+  margin: 4px 0 0 0;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.anonymization {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 24px;
+}
+
+.anonymization div {
+    display: flex;
+    gap: 8px;
+}
+
+.report-container {
+  display: flex;
+  gap: 8px;
+}
+
+
+.step-4 + button {
+  border-radius: 4px;
+  padding: 0 8px;
+  height: 32px;
+  cursor: pointer;
+  background-color: #7fd9a7;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  transition: background-color 200ms;
+  float: right;
+  margin-bottom: 10px
+}
+.step-4 + button:hover {
+  background-color: #57a178;
+}
